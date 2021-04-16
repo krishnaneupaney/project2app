@@ -4,21 +4,21 @@ For this project, I am building a webpage that will get API from axcessnutrition
 
 ## Installation
 
-VS Code
-All react components
+
+All reacts components
 
 
 ## Usage
 
 ```react
-import react from react-dom
+This is for practice only but the actual checkout page can take you to checkout of actualy website where you can purhase the product. 
 
 
 ```
 
 ##HomePageImage
 
-<img width="500" alt="Screen Shot 2021-04-15 at 9 52 10 PM" src="https://user-images.githubusercontent.com/79564250/114960353-d7be6800-9e34-11eb-9654-4232dc42574d.png">
+<img width="560" alt="Screen Shot 2021-04-15 at 9 52 10 PM" src="https://user-images.githubusercontent.com/79564250/114960353-d7be6800-9e34-11eb-9654-4232dc42574d.png">
 
 
 ## Contributing
