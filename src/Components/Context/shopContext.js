@@ -15,7 +15,6 @@ class ShopProvider extends Component {
     checkout: {},
     isCartOpen: false,
   };
-
   componentDidMount() {
     // this.createCheckout();
 
