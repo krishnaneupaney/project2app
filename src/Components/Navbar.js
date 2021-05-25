@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { Container, Icon } from 'atomize'
+import { Container, Icon, Anchor, openCart } from 'atomize'
 
 function Navbar() {
   const [click, setClick] = useState(false);
