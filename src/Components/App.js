@@ -6,12 +6,13 @@ import { Client as Styletron } from "styletron-engine-atomic";
 import { BrowserRouter as Router, Switch, Route, } from "react-router-dom";
 import ShopProvider from './Context/shopContext'
 import { Link } from 'react-router-dom';
-
+import Footer from './Footer'
 import HomePage from './Pages/HomePage'
 import ProductPage from './Pages/ProductPage'
 import Navbar from './Navbar'
 import Cart from './Cart'
 import Blog from './Blog'
+import Contact from './Contact';
 
 const debug = process.env.NODE_ENV === "production" ? void 0 : new DebugEngine();
 const engine = new Styletron();
@@ -34,6 +35,10 @@ const App = () => {
             <Route path="/">
               <HomePage />
             </Route> 
+            <Route path="/contact">
+              <Contact />
+            </Route>
+
             <div className="App">
               <Navbar />
               <Switch>
@@ -44,7 +49,9 @@ const App = () => {
             </Route>
               </Switch>
             </div>
-          </Switch>
+      
+          </Switch> 
+          <Footer />
         </Router>
       </StyletronProvider>
       <MessengerCustomerChat pageId="2225159177749234" appId="265070795272994"
