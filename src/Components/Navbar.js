@@ -35,7 +35,9 @@ function Navbar() {
             <i class='fas fa-store-alt' />
           </Link>
 
-
+          <Anchor onClick={() => openCart()}><Icon name="Bag" size="50px"  color="RedBlue" /></Anchor>
+//                  <input type="text" placeholder="Search products.." name="search"></input>
+//                  <button type="submit"><i color="red" class="fa fa-search"></i></button>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
