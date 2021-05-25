@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-import { Container, Icon, Anchor, openCart } from 'atomize'
+// import { Container, Icon, Anchor, openCart } from 'atomize'
 
 function Navbar() {
   const [click, setClick] = useState(false);
@@ -35,9 +35,9 @@ function Navbar() {
             <i class='fas fa-store-alt' />
           </Link>
 
-          <Anchor onClick={() => openCart()}><Icon name="Bag" size="50px"  color="RedBlue" /></Anchor>
+          {/* <Anchor onClick={() => openCart()}><Icon name="Bag" size="50px"  color="RedBlue" /></Anchor>
 //                  <input type="text" placeholder="Search products.." name="search"></input>
-//                  <button type="submit"><i color="red" class="fa fa-search"></i></button>
+//                  <button type="submit"><i color="red" class="fa fa-search"></i></button> */}
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
           </div>
