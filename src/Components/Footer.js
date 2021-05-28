@@ -21,7 +21,7 @@ function Footer() {
               type='email'
               placeholder='Your Email'
             />
-            <Button buttonStyle='btn--outline'>Subscribe</Button>
+            <Button buttonStyle='btn--outline'>Subscribe Newsletter</Button>
           </form>
         </div>
       </section>
@@ -29,34 +29,33 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/sign-up'>How we started</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
-            <Link to='/'>Investors</Link>
             <Link to='/'>Terms of Service</Link>
           </div>
           <div class='footer-link-items'>
             <h2>Contact Us</h2>
-            <Link to='/contact' >Contact</Link>
-            <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
-            <Link to='/'>Sponsorships</Link>
+            <Link to='/contact' >Contact Form</Link>
+            <Link to='/'>Support us</Link>
+            <Link to='/'>Donations</Link>
+            <Link to='/'>Feedbacks</Link>
           </div>
         </div>
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
-            <h2>Videos</h2>
-            <Link to='/'>Submit Video</Link>
+            <h2>Partners</h2>
+            <Link to='/'>Submit Request</Link>
             <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+             <Link to='/'>Influencer</Link>
+            <Link to='/'>Wholeseller</Link>           
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
-            <Link to='/'>Instagram</Link>
-            <Link to='/'>Facebook</Link>
-            <Link to='/'>Youtube</Link>
-            <Link to='/'>Twitter</Link>
+            <Link to='/instagram'>Instagram</Link>
+            <Link to='/facebook'>Facebook</Link>
+            <Link to='/youtube'>Youtube</Link>
+            <Link to='/linkedin'>Linkedin</Link>
           </div>
         </div>
       </div>
@@ -68,7 +67,7 @@ function Footer() {
               <i class='fas fa-store' />
             </Link>
           </div>
-          <medium class='website-rights'>Axcess © 2020</medium>
+          <large class='website-rights'>Axcess © 2020</large>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
